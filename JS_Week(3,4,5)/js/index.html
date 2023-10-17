@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Basics</title>
+  </head>
+  <body>
+    <h1>JavaScript Basic</h1>
+    <p>Hello World</p>
+
+    <p id="demo"></p>
+    <script>
+      // console.log("First Console"); //console output
+
+      // window.alert("Window Alert"); //window alert (window refresh အချိန်တိုင်း)
+
+      // document.getElementById("demo").innerHTML = "Output result";
+
+      // javascript syntax =>
+      // variable_name =(assignment operator) value; => statement
+      // var variablename; => expression
+
+      const x = 3; //statement 1 value အစားထိုးမရ
+
+      // {
+      var a = 5; //statement 2
+      // console.log("x1 :", x); //10
+      // }
+
+      // console.log("x2 :", x); //3
+
+      // var a = 3;
+
+      {
+        var a = 10;
+        console.log("a1 : ", a); //10
+      }
+
+      console.log("a2 : ", a); //10
+
+      const pi = 3.142; //for standard value
+
+      let y = "16" + "Volvo" + 4.5; //Concatenation => data type  မတူတာတွေကို ပေါင်းပြီး string value အနေနဲ့ return/output
+      console.log("y = ", y);
+      console.log("type of y : ", typeof y);
+
+      let b = 16 + 4.5;
+      console.log("b = ", b);
+      console.log("type of b : ", typeof b);
+
+      // if Conditional Statements
+      // if
+      // else if
+      // else
+      var a;
+      var z;
+
+      // if (a < z) {
+      //   // if (5 > 10)
+      //   console.log("a is greater than z"); //1
+      // } else console.log("a is less than z"); //2
+
+      if (a < z) {
+        console.log("a is less than z");
+      } else if (a > z) {
+        console.log("a is greater than z");
+      } else if (a <= z) {
+        console.log("a is equal to and less than z");
+      } else {
+        console.log("Error");
+      }
+    </script>
+  </body>
+</html>
