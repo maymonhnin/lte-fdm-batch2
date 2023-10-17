@@ -48,8 +48,9 @@ remained //Oct17 => object => array, function calling in object
 - Function (**Revision**)
 - Object (Object)
 remained //Oct17 => object => array, function calling in object
-- Array //Oct17
+- Array //
 
+# -------------------------------------------------------------------
 
 - DOM
 - BOM
